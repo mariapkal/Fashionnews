@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/settings_title">
+
+    <EditTextPreference
+        android:defaultValue="@string/settings_search_by_keyword_default"
+        android:dialogTitle="@string/dialog_title"
+        android:key="@string/setting_search_by_keyword_value"
+        android:persistent="true"
+        android:title="@string/settings_search_by_keyword_label" />
+
+    <Preference
+        android:defaultValue="@string/settings_default"
+        android:key="@string/key"
+        android:title="@string/settings_list_pref_title" />
+
+</PreferenceScreen>

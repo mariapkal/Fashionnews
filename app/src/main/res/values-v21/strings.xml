@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fashion news</string>
+
+    <!-- Text to display in the list when there are no news -->
+    <string name="no_news">Currently there are no stories for you. You can always come later and check for all new stories..</string>
+
+    <!-- Error message when there is no internet connectivity -->
+    <string name="no_internet_connection">No internet connection.</string>
+
+    <!-- Settings Menu Item -->
+    <string name="settings_menu_item">Settings</string>
+    <!-- Settings Activity Title -->
+    <string name="settings_title">Fashion News Settings</string>
+
+    <!-- Strings For Order-By Preference -->
+    <string name="settings_label">Search by</string>
+    <string name="settings" translatable="false">preferences</string>
+    <string name="settings_default" translatable="false">@string/settings_order_by_most_recent_value</string>
+
+    <!-- Label for search by keyword option -->
+    <string name="settings_search_by_keyword_label">Search by keyword</string>
+    <string name="settings_search_by_keyword_default" translatable="false"></string>
+
+    <!-- Label for order by most recent option -->
+    <string name="settings_order_by_most_recent_label">Order by most recent</string>
+    <string name="settings_order_by_most_recent_value" translatable="false">newest</string>
+
+    <string name="key">keyword</string>
+    <string name="key2">preference</string>
+    <string name="dialog_title">Enter keyword</string>
+    <string name="settings_list_pref_title">Order by most recent</string>
+</resources>
